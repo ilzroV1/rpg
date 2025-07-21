@@ -20,4 +20,4 @@ int main() {
 	return 0;
 }
 
-// Make player choose class.
+// Make player choose class!
