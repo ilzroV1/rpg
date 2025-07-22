@@ -1,12 +1,14 @@
 #include <iostream>
 #include <string>
+#include "functions/typewriter.h"
 
 #include "roles/warrior.h"
 
 using namespace PlayerClasses;
 
 int main() {
-	std::cout << "Enter your name." << std::endl;
+	typewriter::write( "Enter your name.");
+	std::cout << " > ";
 	Warrior plr;
 	std::getline(std::cin, plr.name);
 	
